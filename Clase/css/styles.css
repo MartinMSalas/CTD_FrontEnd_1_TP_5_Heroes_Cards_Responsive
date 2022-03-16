@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+ /* header{
+    background-color: chocolate;
+    padding: 25px; */
+} */
+body{
+    font-family: 'Inter', sans-serif;
+}
+section{
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    border: 2px solid black;
+    height: 40%;
+    width: 20%;
+    font-size: 2rem;
+}
+
+@media(max-width: 760px){
+    html{
+        font-size: 20px;
+    }
+    section{
+        background-color: forestgreen;
+        flex-wrap: wrap;
+    }
+    article{
+        width: 200px;
+    }
+}
