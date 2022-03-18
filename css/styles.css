@@ -19,35 +19,30 @@ h1{
 
 section{
     display: flex;
-    gap: 150px;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    /* align-items: center; */
     flex-wrap: wrap;
 }
 .soloDesktop{
     display: none;
 }
 article{
-    font-size: 0px;
+    display: flex;
+    flex-direction: column;
     position: relative;
     max-width: 50vw;
-    /* height: 600px; */
+    margin-bottom: 20px;
+    /* height: 1600px; */
     border: solid 1px red;
 }
 .base{
-    font-size: 0;
+    /* font-size: 0; */
     width: 100%;
 }
-.contenedorImagenLogo{
-    position: absolute;
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    
-    border: solid 1px green;
-}
+
 .logo{
-    
+    position: absolute;
     border-radius: 50%;
     
     width: 100%;
@@ -66,9 +61,12 @@ h2{
     background-color: #F3F3F3;
 }
 article p{
+    
+    height: 35%;
     font-size: 16px;
     padding: 10px 15px 70px;
     background-color: #F3F3F3;
+    border: solid 1px rebeccapurple;
 }
 
 button{
@@ -84,5 +82,12 @@ button{
     }
     article{
         max-width: 350px;
+    }
+    .logo{
+        position: absolute;
+        border-radius: 50%;
+        
+        width: 100%;
+        
     }
 }
