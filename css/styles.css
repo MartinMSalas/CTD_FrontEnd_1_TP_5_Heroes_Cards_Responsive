@@ -7,12 +7,16 @@
 }
 
 header{
+    
     width: 100vw;
 }
 header p{
+
+    padding: 10px;
     background-color: #D1891C;
 }
 h1{
+    padding: 10px;
     background-color: #00669F;
     margin-bottom: 10%;
 }
